@@ -9,6 +9,11 @@
     "test": "ng test"
   },
   "private": true,
+  "resolutions": {
+    "css-select": "4.2.1",
+    "css-what": "5.1.0",
+    "domhandler": "4.3.1"
+},
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",
@@ -31,6 +36,7 @@
     "@angular/cli": "~14.2.9",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
+    "angular-cli-ghpages": "^1.0.5",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
